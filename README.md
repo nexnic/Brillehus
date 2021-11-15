@@ -70,7 +70,7 @@ VScode Color theme
 1.  Monokai Pro
     Link: https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode
 
-First time setup
+# First time setup
 
 install Node from https://nodejs.org/en/
 Node ver (16.13.0 LST)
