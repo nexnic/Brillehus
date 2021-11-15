@@ -1,8 +1,8 @@
 # Brillehus
 
-exam at active learning front-end bootcamp
+Exam at active learning front-end bootcamp
 
-# Info
+# Exam first assignment
 
 The glass store must contain a front page, about us, products and contact us page. So four pages in total. The content of these pages is up to you, but it should be the content that builds up the page. Ask me if you are unsure of your content. A little hint can be to see how similar sites have solved this, and search for the concepts you are unsure of.
 
