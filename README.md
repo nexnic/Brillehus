@@ -1,7 +1,7 @@
 # Brillehus
 
-web design on figma see link below
-Link: https://www.figma.com/file/8h0SWh7LdAb7BvJD6OPBuO/brille-hus?node-id=0%3A1
+web design on figma see link below.
+Link: https://www.figma.com/file/8h0SWh7LdAb7BvJD6OPBuO/brille-hus?node-id=0%3A1 .
 Exam at active learning front-end bootcamp
 
 # Exam first assignment
