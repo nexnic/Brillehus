@@ -1,0 +1,12 @@
+.btn {
+  &:link &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  &__menu {
+    color: $color-white;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
