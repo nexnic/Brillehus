@@ -1,0 +1,17 @@
+//this is for reseting browser page
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  //Browser ha default 16px font-size and when i set font size 62.5% then browser code 1 rem to 62.5% of 16px
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
