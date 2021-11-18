@@ -10,3 +10,25 @@ html {
 
 body {
   box-sizing: border-box; }
+
+.btn:link .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.btn__menu {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.navigasion {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center; }
+
+header {
+  background-image: url(../../assets/img/brhus-1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 50vh;
+  width: 100%; }
