@@ -1,7 +1,19 @@
 .btn {
-  &:link &:visited {
+  &:link,
+  &:visited {
+    font-family: "Fugaz One", cursive;
     text-transform: uppercase;
     text-decoration: none;
+    padding: 1.5rem 4rem;
+    border-radius: 10rem;
+  }
+
+  &__main {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    color: white;
+    background-color: $primary-color;
   }
 
   &__menu {
@@ -31,5 +43,22 @@
     &:hover::before {
       transform: scaleX(1);
     }
+  }
+
+  &__link {
+    font-size: 2rem;
+    color: $secondary-color;
+  }
+
+  &__buy {
+    position: relative;
+    background-color: $primary-color;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: $default-size;
+    font-family: "Fugaz One", cursive;
+    color: $color-white;
+    border-radius: 0.3rem;
+    padding: 1.5rem 3.5rem;
   }
 }

@@ -1,0 +1,49 @@
+form {
+  max-width: 42rem;
+  margin: 5rem auto;
+}
+
+.feedback-input {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  border-radius: 0.5rem;
+  line-height: 2.2rem;
+  background-color: transparent;
+  border: 2px solid $primary-color;
+  transition: all 0.3s;
+  padding: 1.3rem;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid $primary-color;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: lato;
+  width: 100%;
+  background: $primary-color;
+  border-radius: 0.5rem;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 2.4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition: all 0.3s;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: $color-gray-dark;
+}

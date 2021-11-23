@@ -1,0 +1,10 @@
+.aboutus {
+  display: flex;
+  height: 60vh;
+  flex-direction: row;
+  justify-content: center;
+
+  &__img {
+    width: 50rem;
+  }
+}

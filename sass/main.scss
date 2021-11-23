@@ -15,9 +15,9 @@
 
 // Components
 
-@import "components/advertising";
+@import "components/booking";
 @import "components/button";
-@import "components/menu";
+@import "components/form";
 @import "components/product";
 
 // Layout
@@ -25,7 +25,7 @@
 @import "layout/header";
 @import "layout/home";
 @import "layout/nav";
+@import "layout/footer";
 
 // Pages
-
-@import "pages/home";
+@import "pages/aboutus";
