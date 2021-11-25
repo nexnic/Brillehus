@@ -21,6 +21,7 @@ h1 {
 h2 {
   font-family: "Fugaz One", cursive;
   text-transform: uppercase;
+  color: #000000;
   font-size: 3rem; }
 
 h3 {
@@ -38,13 +39,12 @@ p {
   padding: 1rem; }
 
 .heading-primary--main {
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: 1rem;
   color: white; }
 
 .heading-primary--sub {
   font-size: 3.5rem;
-  letter-spacing: 1.4rem;
   color: white; }
 
 .heading-primary--lato {
@@ -107,7 +107,7 @@ p {
       font-size: 2rem;
       font-family: lato; }
   .booking__img {
-    height: 20rem;
+    height: 150px;
     border: 1rem solid #fff;
     border-radius: 2rem; }
 
@@ -131,8 +131,7 @@ p {
   text-decoration: none;
   font-size: 1.6rem;
   font-family: "Fugaz One", cursive;
-  color: #fff;
-  padding: 1.5rem; }
+  color: #000000; }
   .btn__menu:hover {
     color: #fff; }
   .btn__menu::before {
@@ -239,42 +238,53 @@ header {
   background-image: url(../../assets/img/brhus-1.jpg);
   background-size: cover;
   background-position: bottom;
-  width: 100%;
-  height: 40vh; }
-
-.header__textbox {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding: 80px;
   text-align: center; }
 
-.navigasion {
+.navbar {
   display: flex;
-  position: relative;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem; }
+  background-color: #30475e; }
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center; }
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black; }
 
 .footer {
   display: flex;
-  width: 100%;
-  position: sticky;
-  bottom: 0;
-  flex-wrap: wrap-reverse;
-  gap: 1rem;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
-  text-align: center;
-  padding: 0 4rem;
+  padding: 20px;
   background-color: #000000;
-  color: white; }
+  color: #fff; }
   .footer__img {
     width: 10rem;
     padding-top: 1rem; }
   .footer__text {
     font-size: 1.9rem;
     text-transform: uppercase; }
+  .footer__content {
+    text-align: center; }
+  .footer__content-2-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; }
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap; }
 
 .aboutus {
   display: flex;

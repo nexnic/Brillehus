@@ -1,8 +1,17 @@
 //this is to make navline flex and make space-between
-.navigasion {
+.navbar {
   display: flex;
-  position: relative;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem;
+  background-color: $primary-color;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
 }

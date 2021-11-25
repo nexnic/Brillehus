@@ -23,9 +23,11 @@
 // Layout
 
 @import "layout/header";
-@import "layout/home";
+
 @import "layout/nav";
 @import "layout/footer";
+@import "layout/sidebar";
+@import "layout/row";
 
 // Pages
 @import "pages/aboutus";
